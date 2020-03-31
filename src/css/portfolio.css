@@ -1,0 +1,200 @@
+html {
+  background-color: #000000;
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  background-image: -webkit-linear-gradient(10deg, #5c3bb2, #05cd76);
+  color: black;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.round {
+  border-radius: 50%;
+  width: 100%;
+  border: 2px black solid;
+}
+
+.left-col {
+  position: fixed;
+  min-width: 375px;
+}
+
+.right-col {
+  float: right;
+}
+
+@media only screen and (max-width: 1070px) {
+  .left-col {
+    position: relative;
+    margin: auto 0;
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .right-col {
+    float: left;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .my-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.my-container {
+  margin: 3em;
+}
+
+/* Hero */
+
+.hero-text {
+  color: #734bdd;
+  background-image: -webkit-linear-gradient(10deg, #5c3bb2, #05cd76);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 60s infinite linear;
+  font-weight: bold;
+}
+
+.projectDesc {
+  margin-bottom: 0;
+}
+
+/* Chips */
+
+.chip {
+  margin: 0.3em;
+  color: white;
+  display: inline-flex;
+  border-radius: 8px;
+  align-items: center;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.HTML {
+  background-color: #e44d27;
+}
+
+.CSS {
+  background-color: #0e6fba;
+}
+
+.javascript {
+  background-color: #f0d820;
+  color: black;
+}
+
+.AWS {
+  background-color: black;
+}
+
+.MYSQL {
+  background-color: #42759c;
+}
+
+.express {
+  background-color: white;
+  color: black;
+}
+
+.phaser {
+  background-color: #99398c;
+}
+
+.vue {
+  background-color: #41b883;
+}
+
+.vue-material {
+  background-color: #303030;
+}
+
+.cheerio {
+  background-color: #159957;
+}
+
+.heroku {
+  background-color: #79589f;
+}
+
+.bulma {
+  background-color: #36d1b2;
+}
+
+.mdbootstrap {
+  background-color: #33b5e5;
+}
+
+.node {
+  background-color: #689f63;
+}
+
+.chart-js {
+  background-color: #fa777c;
+}
+
+/* Project Cards */
+
+.card-image {
+  position: relative;
+}
+
+.profile {
+  height: 14em;
+  position: relative;
+  border-radius: 2px;
+  background-color: #e3e3e3;
+  margin-top: 2em;
+  border-radius: 7em 0 0 7em;
+}
+
+.profile .photo,
+.profile .content {
+  box-sizing: border-box;
+}
+
+.profile .photo {
+  width: 14em;
+  height: 14em;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px grey;
+  border: double 8px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #5c3bb2, #05cd76);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.profile .photo img {
+  width: 100%;
+}
+.profile .content {
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.profile .content .text {
+  margin-left: 15em;
+}
