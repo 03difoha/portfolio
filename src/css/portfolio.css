@@ -16,13 +16,12 @@ html {
 
 .hero-img {
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 .round {
   border-radius: 50%;
   width: 100%;
-  border: 2px black solid;
 }
 
 .left-col {
@@ -34,7 +33,7 @@ html {
   float: right;
 }
 
-@media only screen and (max-width: 1070px) {
+@media only screen and (max-width: 769px) {
   .left-col {
     position: relative;
     margin: auto 0;
@@ -56,6 +55,31 @@ html {
   }
 }
 
+@media only screen and (max-width: 425px) {
+  .profile {
+    height: 10em !important;
+  }
+  .photo {
+    width: 10em !important;
+    height: 10em !important;
+  }
+  .hero-img {
+    max-width: 300px;
+  }
+
+  .text {
+    margin-left: 16em !important;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .text {
+    margin-left: 18em !important;
+    font-size: 12px;
+  }
+}
+
 .my-container {
   margin: 3em;
 }
@@ -69,6 +93,7 @@ html {
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 60s infinite linear;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .projectDesc {
