@@ -1,7 +1,7 @@
 html {
   background-color: #000000;
   position: relative;
-  min-height: 100%;
+  min-height: 100% - 24px;
 }
 
 .footer {
@@ -26,17 +26,20 @@ html {
 
 .left-col {
   position: fixed;
-  min-width: 375px;
+  margin-bottom: 2em;
 }
 
 .right-col {
   float: right;
 }
 
+.profile.content {
+  overflow: scroll;
+}
+
 @media only screen and (max-width: 769px) {
   .left-col {
     position: relative;
-    margin: auto 0;
     text-align: center;
     width: 100% !important;
   }
@@ -71,17 +74,38 @@ html {
     margin-left: 16em !important;
     font-size: 10px;
   }
+
+  .projectDesc {
+    margin-bottom: 0em !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .text {
+    padding-left: 17em !important;
+    font-size: 9px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .projectTitle {
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
   .text {
     margin-left: 18em !important;
     font-size: 12px;
+    padding-left: 18.5em !important;
   }
 }
 
 .my-container {
-  margin: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 3em;
+  margin-bottom: 1.8em;
 }
 
 /* Hero */
@@ -97,13 +121,14 @@ html {
 }
 
 .projectDesc {
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 
 /* Chips */
 
 .chip {
-  margin: 0.3em;
+  margin-top: 0.3em;
+  margin-right: 0.3em;
   color: white;
   display: inline-flex;
   border-radius: 8px;
@@ -185,7 +210,7 @@ html {
   position: relative;
   border-radius: 2px;
   background-color: #e3e3e3;
-  margin-top: 2em;
+  margin-bottom: 2em;
   border-radius: 7em 0 0 7em;
 }
 
@@ -211,6 +236,7 @@ html {
   width: 100%;
 }
 .profile .content {
+  display: table;
   padding: 10px;
   overflow: hidden;
   position: absolute;
@@ -222,4 +248,7 @@ html {
 
 .profile .content .text {
   margin-left: 15em;
+  display: table-cell;
+  padding-left: 15em;
+  vertical-align: middle;
 }

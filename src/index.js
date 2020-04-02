@@ -12,11 +12,9 @@ function Hero(props) {
   return (
     <div>
       <img className="hero-img round" src={logo} alt="Logo"></img>
-      <h1 className="hero-text">
-        Harry Difolco
-        <br></br>
-        Web Developer
-      </h1>
+      <h1 className="hero-text">Harry Difolco</h1>
+      <h3 className="hero-text">Web Developer</h3>
+
       <h6 className="hero-text">
         hdifolco@yahoo.com <br />
         Linkedin <br />
@@ -38,7 +36,7 @@ function Project(props) {
       </div>
       <div className="content">
         <div className="text">
-          <h5 className="projectDesc">{props.title}</h5>
+          <h5 className="projectDesc projectTitle">{props.title}</h5>
           <p className="projectDesc">{props.desc}</p>
           <Chip tech={props.tech} />
         </div>
@@ -78,10 +76,10 @@ class Portfolio extends React.Component {
     return (
       <div className="my-container">
         <div className="row">
-          <div className="left-col six columns">
+          <div className="left-col five columns">
             <Hero />
           </div>
-          <div className="right-col six columns">
+          <div className="right-col seven columns">
             <Projects />
           </div>
         </div>

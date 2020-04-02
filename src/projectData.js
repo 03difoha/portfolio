@@ -13,23 +13,23 @@ const projectData = [
     tech: ["node", "vue", "AWS", "MYSQL", "express", "chart-js", "vue-material"]
   },
   {
-    title: "Runner Targetting tool",
+    title: "Runner Dashboard",
     desc:
-      "Customer segmentation Dashboard. Filter runners by brand, age, pace and many other parameters. Includes lightbox view, incorrect image flagging and",
+      "Customer segmentation Dashboard for MIRO AI. Filter runners by, age, gender, pace etc.",
     img: miro,
     tech: ["node", "vue", "mdbootstrap"]
   },
   {
     title: "Smart Shopping",
     desc:
-      "Vue.js + Express. Paste your favourite online recipes into the smart list tool and collate all the needed ingredients into one convenient shopping list.",
+      "Web scrapping to collate all youte favorite recipes into one convenient shopping list.",
     img: recipes,
     tech: ["node", "express", "cheerio", "bulma", "heroku"]
   },
   {
     title: "Ludio",
     desc:
-      "1 in 100 children in the UK are autistic. How can technology be utilised to fascilitate learning for children with ASD? Winner of Ravensbourne Marketplace 2017 and Incubation Lite award.",
+      "How can technology be utilised to fascilitate learning for children with ASD? Winner of Ravensbourne Marketplace 2017 and Incubation Lite award.",
     img: ludio,
     tech: ["HTML", "CSS", "javascript", "phaser"]
   },
