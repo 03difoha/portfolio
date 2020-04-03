@@ -16,9 +16,9 @@ function Hero(props) {
       <h3 className="hero-text">Web Developer</h3>
 
       <h6 className="hero-text">
-        hdifolco@yahoo.com <br />
-        Linkedin <br />
-        Github <br />
+        <a href="mailto:hdifolco@yahoo.com">hdifolco@yahoo.com</a> <br />
+        <a href="https://www.linkedin.com/in/hdifolco/">Linkedin</a> <br />
+        <a href="https://github.com/03difoha">Github</a> <br />
         +86 15026741076
         <br />
         +44 7931848691
@@ -30,18 +30,20 @@ function Hero(props) {
 
 function Project(props) {
   return (
-    <div className="profile">
-      <div className="photo">
-        <img alt="img" src={props.img} />
-      </div>
-      <div className="content">
-        <div className="text">
-          <h5 className="projectDesc projectTitle">{props.title}</h5>
-          <p className="projectDesc">{props.desc}</p>
-          <Chip tech={props.tech} />
+    <a href={props.link}>
+      <div className="profile">
+        <div className="photo">
+          <img alt="img" src={props.img} />{" "}
+        </div>
+        <div className="content">
+          <div className="text">
+            <h5 className="projectDesc projectTitle">{props.title}</h5>
+            <p className="projectDesc">{props.desc}</p>
+            <Chip tech={props.tech} />
+          </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
@@ -61,6 +63,7 @@ class Projects extends React.Component {
           key={p.title}
           title={p.title}
           img={p.img}
+          link={p.link}
           desc={p.desc}
           tech={p.tech}
         />
@@ -83,7 +86,14 @@ class Portfolio extends React.Component {
             <Projects />
           </div>
         </div>
-        <footer className="footer">Portfolio built with React</footer>
+        <footer className="footer">
+          <a
+            className="footer-text"
+            href="https://github.com/03difoha/portfolio"
+          >
+            Portfolio built with React
+          </a>
+        </footer>
       </div>
     );
   }

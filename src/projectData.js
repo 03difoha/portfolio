@@ -8,29 +8,34 @@ const projectData = [
   {
     title: "Parking Planner",
     desc:
-      " This Parking Planner uses TFL data to plot the average number of free spaces at various car parks around London.",
+      "Using TFL data to plot the busiest times at various car parks around London.",
     img: tfl,
+    link:
+      "http://parking-planner-vue-frontend.s3-website-us-east-1.amazonaws.com",
     tech: ["node", "vue", "AWS", "MYSQL", "express", "chart-js", "vue-material"]
   },
   {
     title: "Runner Dashboard",
     desc:
-      "Customer segmentation Dashboard for MIRO AI. Filter runners by, age, gender, pace etc.",
+      "Customer segmentation dashboard for MIRO AI. Filter runners by demographic and export to CSV.",
     img: miro,
+    link: "https://i.imgur.com/vXjIkrN.gif",
     tech: ["node", "vue", "mdbootstrap"]
   },
   {
     title: "Smart Shopping",
     desc:
-      "Web scrapping to collate all youte favorite recipes into one convenient shopping list.",
+      "Web scrape all the ingredients for your favorite recipes into one convenient shopping list!",
     img: recipes,
+    link: "https://shopping-list-frontend.herokuapp.com/",
     tech: ["node", "express", "cheerio", "bulma", "heroku"]
   },
   {
     title: "Ludio",
     desc:
-      "How can technology be utilised to fascilitate learning for children with ASD? Winner of Ravensbourne Marketplace 2017 and Incubation Lite award.",
+      "Utilising technology to fascilitate learning for children with ASD. Winner of Ravensbourne Marketplace 2017 and Incubation Lite award.",
     img: ludio,
+    link: "https://github.com/03difoha/Ludio/blob/master/README.md",
     tech: ["HTML", "CSS", "javascript", "phaser"]
   },
   {
@@ -38,6 +43,7 @@ const projectData = [
     desc:
       "Interactive website to advertise The National Theatre Backstage app.",
     img: nt,
+    link: "http://digital.nationaltheatre.org.uk/",
     tech: ["HTML", "CSS", "javascript"]
   }
 ];
