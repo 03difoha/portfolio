@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d16a1ab.chunk.css",
+    "main.js": "/static/js/main.19448ef9.chunk.js",
+    "main.js.map": "/static/js/main.19448ef9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8c5b4be.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8c5b4be.js.map",
+    "static/js/2.878969ce.chunk.js": "/static/js/2.878969ce.chunk.js",
+    "static/js/2.878969ce.chunk.js.map": "/static/js/2.878969ce.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.80eb5e1f6f0dc87a83e2423f24727b3a.js": "/precache-manifest.80eb5e1f6f0dc87a83e2423f24727b3a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9d16a1ab.chunk.css.map": "/static/css/main.9d16a1ab.chunk.css.map",
+    "static/js/2.878969ce.chunk.js.LICENSE.txt": "/static/js/2.878969ce.chunk.js.LICENSE.txt",
+    "static/media/ludio.png": "/static/media/ludio.9bee3676.png",
+    "static/media/me.png": "/static/media/me.08b96d9e.png",
+    "static/media/miro.png": "/static/media/miro.564e2c78.png",
+    "static/media/nt.png": "/static/media/nt.a8aab1e4.png",
+    "static/media/recipes.png": "/static/media/recipes.c77a4765.png",
+    "static/media/tfl.png": "/static/media/tfl.59ab1e5a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8c5b4be.js",
+    "static/js/2.878969ce.chunk.js",
+    "static/css/main.9d16a1ab.chunk.css",
+    "static/js/main.19448ef9.chunk.js"
+  ]
+}
